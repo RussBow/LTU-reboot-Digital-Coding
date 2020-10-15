@@ -5,3 +5,6 @@ Module / Session - date
 Reflection
 
 In today session I was intoduced to git / github, shown a quick demo on the advantages of using VS code. We installed an extension onto VS code and have done an introductory demo on committing changes
+
+
+To add to my initial reflection I have now completed additional text here to show I've done my homework
