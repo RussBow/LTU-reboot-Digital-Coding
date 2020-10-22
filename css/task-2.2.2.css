@@ -1,0 +1,14 @@
+body {
+    background-image: url("https://media.istockphoto.com/photos/pangolin-searching-for-ants-picture-id512705258");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+img {
+    max-width:300px;
+}
+h1 {
+    background-color: darkmagenta; color: cornsilk;
+}
+li {
+    color: crimson;
+}
