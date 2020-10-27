@@ -4,3 +4,10 @@ p {
     font-size: 12px;
     font-family: sans-serif;
 }
+
+h1 {
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: fantasy;
+}
