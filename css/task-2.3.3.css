@@ -1,3 +1,12 @@
+a:link {
+    color: green;
+    font-size: larger;
+}
+a:visited {
+    color: yellowgreen;
+    font-size: large;
+}
+
 a:hover {
     color: fuchsia;
     font-size: large;
