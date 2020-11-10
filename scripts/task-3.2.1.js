@@ -1,7 +1,7 @@
-function myName () {
+function myName() {
 
     console.log('Russell Bowen');
-    document.write('Russell Bowen')
+    document.write('Russell Bowen');
 }
 
 myName();
