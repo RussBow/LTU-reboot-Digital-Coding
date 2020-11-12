@@ -8,7 +8,7 @@ if (temperature < 0) {
 } else if (temperature < 50) {
     console.log('Put a coat on');
 } else if ( temperature >50 && temperature === 55) { 
-    console/log('its very hote, looks like you will burn');
+    console/log('its very hot, looks like you will burn');
 } else {
     console.log('just pants and vest');
 }
