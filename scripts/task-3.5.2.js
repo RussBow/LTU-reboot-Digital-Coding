@@ -64,7 +64,7 @@ let shoppingCart = [
 
     function discoutForFood( arr ) {
 
-        var totalPrice = 0; // 2. Create a variabel inside the function called "totalPrice"
+        var totalPrice = 0; // 2. Create a variable inside the function called "totalPrice"
 
         //3. loop through the array of objects
         for( var index =0; index < arr.length; index++ ) {
@@ -72,15 +72,14 @@ let shoppingCart = [
             // 4. if item is type food add 20%discount
            if( arr[index].type === "food" ) {
 
-            var discount = ( arr[index].price * 20) /100;
+            var discount = ( arr[index].price * 20) / 100;
 
             totalPrice = totalPrice + ( arr[index].price - discount ) * arr[index].quantity;
 
 
-           } 
-           else {
+           } else {
 
-            totalPrice= totalPrice + ( arr[index].price * arr[index].quantity);
+            totalPrice = totalPrice + ( arr[index].price * arr[index].quantity);
            }
 
 
@@ -90,4 +89,4 @@ let shoppingCart = [
 
     }
 
-    console.log (discoutForFood ( shoppingCart) );
+console.log(discoutForFood (shoppingCart));
