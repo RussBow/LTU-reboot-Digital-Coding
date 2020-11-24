@@ -65,28 +65,16 @@ let shoppingCart = [
         var totalPrice = 0;
 
         for( var index = 0; index < arr.length; index++ ) {
-
             if( arr[index]. type === type ) {
-
                 var discount = ( arr[index].price * discountAmount ) / 100;
-
                 totalPrice = totalPrice +  ( arr[index].price - discount) * arr[index].quantity; 
-
             } else if (type === "any") {
-
                 var discount = ( arr[index].price * discountAmount) / 100;
-
                 totalPrice = totalPrice +  ( arr[index].price - discount) * arr[index].quantity; 
             } else {
-
                 totalPrice = totalPrice + ( arr[index].price * arr[index].quantity);
             }
-
         }
-
         return totalPrice.toFixed(2);
-
-
     }
-
-    console.log( discountAmount( shoppingCart, 20, 'any') ); 
+    console.log( discountAmount ( shoppingCart, 20, 'any'));
