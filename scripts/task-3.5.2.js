@@ -85,7 +85,7 @@ let shoppingCart = [
 
         }
         // 5. Return the total price variable
-        return totalPrice.toFixed(2);
+        return totalPrice.toFixed(0);
 
     }
 

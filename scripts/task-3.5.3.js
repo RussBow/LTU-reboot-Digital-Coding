@@ -72,7 +72,7 @@ let shoppingCart = [
 
                 totalPrice = totalPrice +  ( arr[index].price - discount) * arr[index].quantity; 
 
-            } else if (type === 'any') {
+            } else if (type === "any") {
 
                 var discount = ( arr[index].price * discountAmount) / 100;
 
