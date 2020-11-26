@@ -1,0 +1,21 @@
+.selection-container {
+
+    margin-bottom:30px;
+    padding: 20px;
+}
+
+.main img {
+    width: 200px;
+    
+}
+
+.active {
+    background-color: black;
+    color: white;
+}
+
+.image-selections {
+
+    display: flex;
+    flex-wrap: wrap;
+}
