@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-4.2.2</title>
+</head>
+<body>
+
+    <script>
+        var arrBookList = [
+            {
+
+                title:'The Hobbit',
+                author:'JRR Tolkein',
+                hasRead:false,
+            },
+            {
+
+                title:'Lord Of The Rings',
+                author:'JRR Tolkein',
+                hasRead:true,
+            },
+            {
+
+                title:'Harry Potter',
+                author:'JK Rowling',
+                hasRead:true,
+            },
+
+        ];
+
+        // LOOP through each item in the book list array
+        for(counter = 0; counter < arrBookList.length; counter ++){
+            var objCurrentBook = arrBookList [counter];
+            //THEN creat a message to output that is {title} by {author}
+            var strMessage = objCurrentBook.title + ' by ' + objCurrentBook.author;
+            //IF the book has already been read
+            if(objCurrentBook.hasRead){
+                //THEN prepend the message wut "you have read this"
+                strMessage = " you have read " + strMessage;}
+            //ELSE
+            else {
+                //THEN prepend the message with "you need to read"
+                strMessage = " you need to read " + strMessage;}
+                console.log(strMessage);
+        }
+
+
+
+    </script>
+    
+</body>
+</html>
